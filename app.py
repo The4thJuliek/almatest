@@ -26,7 +26,7 @@ def home():
 
 # @app.route("/api/data")
 # def get_data():
-#     return app.send_static_file("data.josn")
+#     return app.send_static_file("data.json")
 
 
 # def allowed_file(filename):
