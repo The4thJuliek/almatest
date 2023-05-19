@@ -82,10 +82,10 @@ def hello_there(name=None):
 #                 tree['children'].append(dict(name=name))
 #     return tree
 
-@app.route('/')
-def dirtree():
-    path = os.path.expanduser(u'~')
-    return render_template('dirtree.html', tree=make_tree(path))
+# @app.route('/')
+# def dirtree():
+#     path = os.path.expanduser(u'~')
+#     return render_template('dirtree.html', tree=make_tree(path))
 
-if __name__=="__main__":
-    app.run(host='localhost', port=8888, debug=True)
+# if __name__=="__main__":
+#     app.run(host='localhost', port=8888, debug=True)
