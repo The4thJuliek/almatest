@@ -1,0 +1,260 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TrotulaPr1M</title>
+                <title type="sub">Edition critique de la première version française en prose du traité <title><foreign xml:lang="lat">De passionibus mulierum</foreign></title> de <persName>Trotula de Salerne</persName></title>
+                <author>Anonyme</author>
+                <editor>
+                    <persName xml:id="VM"><forename>Viola </forename> <surname>Mariotti</surname></persName>
+                    <roleName>Docteure en philologie romane</roleName> et <roleName> chercheuse post-doctorale pour le projet ALMA (Heidelberger Akademie der Wissenschaften ; Romanisches Seminar - Universität Heidelberg).</roleName>
+                </editor>
+                <principal>
+                    <persName xml:id="ST"><forename>Sabine</forename> <surname>Tittel</surname>, <roleName>chercheuse en philologie romane (Heidelberger Akademie der Wissenschaften ; Université de Heidelberg - Romanisches Seminar)</roleName> et <roleName>directrice du projet ALMA - Equipe scientifique de Heidelberg (ancien français).</roleName></persName></principal>
+                    <respStmt>
+                        <resp>
+                            Membre du projet ALMA - Equipe scientifique de Heidelberg (ancien français)
+                        </resp>
+                        <persName xml:id="RM"><forename>Ragini</forename> <surname>Menon</surname>, <roleName>doctorante en humanités numérique dans le cadre du projet ALMA (dir. <ref corresp="#ST">S. Tittel</ref>).</roleName></persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>
+                            Directrice du projet ALMA - Equipe scientifique de Regensburg (ancien occitan)
+                        </resp>
+                        <persName xml:id="MS"><forename>Maria</forename> <surname>Selig</surname>, <roleName>professeure de philologie romane à l'Université de Regensburg</roleName>.</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>
+                            Directeur du projet ALMA - Equipe scientifique de Saarbrücken (ancien italien)
+                        </resp>
+                        <name><persName xml:id="EP"><forename>Elton</forename> <surname>Prifti</surname>, <roleName>professeur de philologie romane à l'Université de Saarbrücken</roleName>.</persName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        Directeur du projet ALMA - Equipe scientifique de Saarbrücken (ancien italien)
+                    </resp>
+                    <name><persName xml:id="WS"><forename>Wolfgang</forename> <surname>Schweickard</surname>, <roleName>professeur emérite de philologie romane à l'Université de Saarbrücken</roleName>.</persName>
+                </name>
+            </respStmt>
+        </titleStmt>
+    </fileDesc>
+</teiHeader>
+            <text xml:id="TrotulaPr1M_edition">
+                <front>
+                    </front>
+                    <body>
+                        <div type="prologue" xml:id="TrotulaPr1M_prologue">
+                            <head>[Prologue]</head>
+                            <div type="paragraph" n="1" xml:id="TrotulaPr1M_prologue_1">
+                                <label>[1]</label>
+                                <p>
+                                    <pb n="246v"/><cb n="b"/>
+                                    <app>
+                                        <lem wit="#N #W"/><rdg wit="#S">Quant</rdg>
+                                    </app>
+                                    <w form="Dex" lemma="dieu" POS="NOMpro" morph="NOMB.=s|GENRE=m|CAS=n">Dex</w>
+                                    <w form="nostre" lemma="nostre" POS="DETpos" morph="PERS.=1|NOMB.=s|GENRE=m|CAS=r">nostre</w>
+                                    <w form="seignor" lemma="seignor" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">seignor</w>
+                                    <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                    <app>
+                                        <lem wit="#N #W">
+                                            <w form="quant" lemma="cant1" POS="CONsub" morph="MORPH=empty">quant</w>
+                                            <w form="il" lemma="il" POS="PROper" morph="PERS.=3|NOMB.=s|GENRE=m|CAS=n">il</w>
+                                        </lem>
+                                        <rdg wit="#S"/>
+                                    </app>
+                                    <w form="out" lemma="avoir" POS="VERcjg" morph="MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s">out</w>
+                                    <w form="le" lemma="le" POS="DETdef" morph="NOMB.=s|GENRE=m|CAS=r">le</w>
+                                    <app>
+                                        <lem wit="#S #N">
+                                            <w form="mund" lemma="monde1" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">mund</w>
+                                        </lem>
+                                        <rdg wit="#W">secle</rdg>
+                                    </app>
+                                    <w form="estoré" lemma="estorer" POS="VERppe" morph="NOMB.=s|GENRE=m|CAS=r">estoré</w>
+                                    <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                    <app>
+                                        <lem wit="#N #W">
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                        </lem>
+                                        <rdg wit="#S"/>
+                                    </app>
+                                    <app>
+                                        <lem wit="#S #N">
+                                            <w form="sor" lemma="sor2" POS="PRE" morph="MORPH=empty">sor</w>
+                                            <w form="tote" lemma="tot" POS="DETind" morph="NOMB.=s|GENRE=f|CAS=r">tote</w>
+                                            <w form="creature" lemma="crïature" POS="NOMcom" morph="NOMB.=s|GENRE=f|CAS=r">creature</w>
+                                        </lem>
+                                        <rdg wit="#W">les autres creatures</rdg>
+                                    </app>
+                                    <app>
+                                        <lem wit="#S #N">
+                                            <w form="si" lemma="si" POS="ADVgen" morph="DEGRE=-">si</w>
+                                        </lem>
+                                        <rdg wit="#W">/</rdg>
+                                    </app>
+                                    <w form="fist" lemma="faire" POS="VERcjg" morph="MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s">fist</w>
+                                    <w form="home" lemma="ome" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">home</w>
+                                    <app>
+                                        <lem wit="#S #N">
+                                            <w form="raisnable" lemma="raisnable" POS="ADJqua" morph="NOMB.=s|CAS=r|DEGRE=p">raisnable</w>
+                                        </lem>
+                                        <rdg wit="#W">remuable</rdg>
+                                    </app>
+                                    <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                    <app>
+                                        <lem wit="#S #N">
+                                            <w form="puis" lemma="puis" POS="ADVgen" morph="DEGRE=-">puis</w>
+                                        </lem>
+                                        <rdg wit="#W">si</rdg>
+                                    </app>
+                                    <w form="li" lemma="il" POS="PROper" morph="PERS.=3|NOMB.=s|GENRE=m|CAS=i">li</w>
+                                    <w form="dona" lemma="doner" POS="VERcjg" morph="MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s">dona</w>
+                                    <w form="seignorie" lemma="seignorie" POS="NOMcom" morph="NOMB.=s|GENRE=f|CAS=r">seignorie</w>
+                                    <w form="de" lemma="de" POS="PRE" morph="MORPH=empty">de</w>
+                                    <w form="totes" lemma="tot" POS="DETind" morph="NOMB.=p|GENRE=f|CAS=r">totes</w>
+                                    <w form="terrienes" lemma="terrïen" POS="ADJqua" morph="NOMB.=p|GENRE=f|CAS=r|DEGRE=p">terrienes</w>
+                                    <w form="choses" lemma="chose" POS="NOMcom" morph="NOMB.=p|GENRE=f|CAS=r">choses</w>
+                                    <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                    <w form="si" lemma="si" POS="ADVgen" morph="DEGRE=-">si</w>
+                                    <app>
+                                        <lem wit="#S #N"/><rdg wit="#W">le</rdg>
+                                    </app>
+                                    <w form="commanda" lemma="comander" POS="VERcjg" morph="MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s">commanda</w>
+                                    <w form="à" lemma="a3" POS="PRE" morph="MORPH=empty">à</w>
+                                    <app>
+                                        <lem wit="#S">
+                                            <w form="creistre" lemma="criembre" POS="VERinf" morph="MORPH=empty">creistre</w>
+                                        </lem>
+                                        <rdg wit="#N">estre</rdg><rdg wit="#W">conoistre</rdg>
+                                    </app>
+                                    <choice>
+                                        <sic>et</sic><corr/>
+                                    </choice>
+                                    <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                    <w form="à" lemma="a3" POS="PRE" morph="MORPH=empty">à</w>
+                                    <w form="mouteplier" lemma="moutepliier" POS="VERinf" morph="NOMB.=s|CAS=r">mouteplier</w>
+                                    <app>
+                                        <lem wit="#S #N"/><rdg wit="#W">home et fame</rdg>
+                                    </app>
+                                    <w form="." lemma="." POS="PONfrt" morph="MORPH=empty">.</w>
+                                    <w form="Et" lemma="et" POS="CONcoo" morph="MORPH=empty">Et</w>
+                                    <w form="establi" lemma="establir" POS="VERcjg" morph="MODE=ind|NOMB.=s|GENRE=m|CAS=n">establi</w>
+                                    <app>
+                                        <lem wit="#S #N"/><rdg wit="#W">que d'home et fame istroit fruit et</rdg><witDetail wit="#W">ajout interlinaire <hi>fruit</hi> rédigé par une autre main</witDetail>
+                                    </app>
+                                    <w form="ke" lemma="que4" POS="CONsub" morph="MORPH=empty">ke</w>
+                                    <w form="des" lemma="de+le" POS="PRE.DETdef" morph="NOMB.=p|GENRE=m|CAS=r">des</w>
+                                    <w form="deus" lemma="deus" POS="PROcar" morph="NOMB.=p|GENRE=m|CAS=r">deus</w>
+                                    <w form="vendreit" lemma="venir" POS="VERcjg" morph="MODE=con|PERS.=3|NOMB.=s">vendreit</w>
+                                    <w form="le" lemma="le" POS="DETdef" morph="NOMB.=s|GENRE=m|CAS=r">le</w>
+                                    <w form="tierz" lemma="tierz" POS="PROord" morph="NOMB.=s|GENRE=m|CAS=r">tierz</w>
+                                    <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                    <app>
+                                        <lem wit="#S #N">
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="del" lemma="de+le" POS="PRE.DETdef" morph="NOMB.=s|GENRE=m|CAS=r">del</w>
+                                            <w form="cors" lemma="cors1" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">cors</w>
+                                            <w form="de" lemma="de" POS="PRE" morph="MORPH=empty">de</w>
+                                            <w form="l" lemma="le" POS="DETdef" morph="NOMB.=s|GENRE=m|CAS=r">l’</w>
+                                            <w form="home" lemma="ome" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">home</w>
+                                        </lem>
+                                        <rdg wit="#W">premierement dou cors à l'omme</rdg>
+                                    </app>
+                                    <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                    <w form="qui" lemma="que2" POS="PROrel" morph="NOMB.=s|GENRE=m|CAS=n">qui</w>
+                                    <w form="plus" lemma="plus" POS="ADVgen" morph="DEGRE=-">plus</w>
+                                    <w form="est" lemma="estre1" POS="VERcjg" morph="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">est</w>
+                                    <w form="de" lemma="de" POS="PRE" morph="MORPH=empty">de</w>
+                                    <w form="chaude" lemma="chaut" POS="ADJqua" morph="NOMB.=s|GENRE=f|CAS=r">chaude</w>
+                                    <w form="nature" lemma="nature" POS="NOMcom" morph="NOMB.=s|GENRE=f|CAS=r">nature</w>
+                                    <app>
+                                        <rdgGrp><lem wit="#S #N">
+                                            <app>
+                                                <lem wit="#S">
+                                                    <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                                    <w form="deseché" lemma="descendre" POS="VERppe" morph="NOMB.=s|GENRE=m|CAS=n">deseché</w>
+                                                    <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                                    <w form="istreit" lemma="issir" POS="VERcjg" morph="MODE=con|PERS.=3|NOMB.=s">istreit</w>
+                                                    <w form="la" lemma="le" POS="DETdef" morph="NOMB.=s|GENRE=f|CAS=n">la</w>
+                                                    <w form="semence" lemma="semence" POS="NOMcom" morph="NOMB.=s|GENRE=f|CAS=n">semence</w>
+                                                    <w form="en" lemma="en1" POS="PRE" morph="MORPH=empty">en</w>
+                                                    <w form="la" lemma="le" POS="DETdef" morph="NOMB.=s|GENRE=f|CAS=r">la</w>
+                                                    <w form="feme" lemma="feme" POS="NOMcom" morph="NOMB.=s|GENRE=f|CAS=r">feme</w>
+                                                </lem>
+                                                <rdg wit="#N">et de lui istereit la semence. E la f.</rdg>
+                                            </app>
+                                            <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                            <w form="ke" lemma="que2" POS="PROrel" morph="NOMB.=s|GENRE=f|CAS=n">ke</w>
+                                            <w form="plus" lemma="plus" POS="ADVgen" morph="DEGRE=-">plus</w>
+                                            <w form="est" lemma="estre1" POS="VERcjg" morph="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">est</w>
+                                            <w form="de" lemma="de" POS="PRE" morph="MORPH=empty">de</w>
+                                            <w form="freide" lemma="froit1" POS="ADJqua" morph="NOMB.=s|GENRE=f|CAS=r|DEGRE=p">freide</w>
+                                            <w form="nature" lemma="nature" POS="NOMcom" morph="NOMB.=s|GENRE=f|CAS=r">nature</w>
+                                            <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="de" lemma="de" POS="PRE" morph="MORPH=empty">de</w>
+                                            <w form="mole" lemma="mol" POS="NOMcom" morph="NOMB.=s|GENRE=f|CAS=r">mole</w>
+                                            <w form="la" lemma="le" POS="PROper" morph="NOMB.=s|GENRE=f|CAS=r">la</w>
+                                            <app>
+                                                <lem wit="#N">
+                                                    <w form="recovreit" lemma="recovrer" POS="VERcjg" morph="MODE=con|PERS.=3|NOMB.=s">recovreit</w>
+                                                </lem>
+                                                <rdg wit="~#S">reouvreit</rdg>
+                                            </app>
+                                            <w form="," lemma="," POS="PONfbl" morph="MORPH=empty">,</w>
+                                            <app>
+                                                <lem wit="#S"/><rdg wit="#N">el comencement meismes est medlé la semence de la femme od la semence de l'home</rdg>
+                                            </app>
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="par" lemma="par" POS="PRE" morph="MORPH=empty">par</w>
+                                            <w form="l" lemma="le" POS="DETdef" morph="NOMB.=s|GENRE=m|CAS=r">l'</w>
+                                            <w form="atemprement" lemma="atemprement" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">atemprement</w>
+                                            <w form="del" lemma="de+le" POS="PRE.DETdef" morph="NOMB.=s|GENRE=m|CAS=r">del</w>
+                                            <w form="chalt" lemma="chaut" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">chalt</w>
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="del" lemma="de+le" POS="PRE.DETdef" morph="NOMB.=s|GENRE=m|CAS=r">del</w>
+                                            <w form="freit" lemma="froit1" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">freit</w>
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="del" lemma="de+le" POS="PRE.DETdef" morph="NOMB.=s|GENRE=m|CAS=r">del</w>
+                                            <w form="sec" lemma="sec" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">sec</w>
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="del" lemma="de+le" POS="PRE.DETdef" morph="NOMB.=s|GENRE=m|CAS=r">del</w>
+                                            <w form="moiste" lemma="moiste" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=r">moiste</w>
+                                            <app>
+                                                <lem wit="#S"/><rdg wit="#N">est li germes alevez et creist li e.</rdg>
+                                            </app>
+                                            <w form="creistreit" lemma="croistre" POS="VERcjg" morph="MODE=ind|PERS.=3|NOMB.=s">creistreit</w>
+                                            <w form="li" lemma="le" POS="DETdef" morph="NOMB.=s|GENRE=m|CAS=n">li</w>
+                                            <w form="enfes" lemma="enfant" POS="NOMcom" morph="NOMB.=s|GENRE=m|CAS=n">enfes</w>
+                                            <w form="." lemma="." POS="PONfrt" morph="MORPH=empty">.</w>
+                                            <w form="Ices" lemma="ice2" POS="DETdem" morph="NOMB.=p|GENRE=f|CAS=n">Ices</w>
+                                            <w form="quatre" lemma="catre" POS="ADJcar" morph="NOMB.=p|GENRE=f|CAS=n">quatre</w>
+                                            <w form="choses" lemma="chose" POS="NOMcom" morph="NOMB.=p|GENRE=f|CAS=n">choses</w>
+                                            <w form="sunt" lemma="estre1" POS="VERcjg" morph="MODE=ind|TEMPS=pst|PERS.=3|NOMB.=p">sunt</w>
+                                            <w form="necessaire" lemma="necessaire" POS="ADJqua" morph="NOMB.=s|GENRE=m|CAS=n|DEGRE=p">necessaire</w>
+                                            <w form="ad" lemma="avoir" POS="VERcjg" morph="MODE=ind|TEMPS=pst">ad</w>
+                                            <w form="herbes" lemma="erbe" POS="NOMcom" morph="NOMB.=p|GENRE=f|CAS=r">herbes</w>
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="as" lemma="a3+le" POS="PRE.DETdef" morph="NOMB.=p|GENRE=m|CAS=r">as</w>
+                                            <w form="arbres" lemma="arbre" POS="NOMcom" morph="NOMB.=p|GENRE=m|CAS=r">arbres</w>
+                                            <w form="et" lemma="et" POS="CONcoo" morph="MORPH=empty">et</w>
+                                            <w form="as" lemma="a3+le" POS="PRE.DETdef" morph="NOMB.=p|GENRE=m|CAS=r">as</w>
+                                            <w form="blez" lemma="blé" POS="ADJqua" morph="NOMB.=p|GENRE=m|CAS=r">blez</w>
+                                            <w form="." lemma="." POS="PONfrt" morph="MORPH=empty">.</w>
+                                        </lem>
+                                    </rdgGrp><rdg wit="#W"> istroit la semence et por l'atemprement dou chaut et dou froiz, c'est à savoir de la chalour de l'omme et de la froidor de la famme et dou sec et dou moillié sunt les .iiij. humors, le chaut et le froit, et le sec et le moillié, craist li enfes, si come nous n'oion de ces <sic>abres</sic> et de ces bienz qui ne ci dis sent mie bien sanz l'atrempement de ces .iiij. humeurs. </rdg><witDetail wit="#W">ajout interlinéaire par une autre main qui corrige le <hi>z</hi> de <hi>froiz</hi> en <hi>t</hi>, ajoute le <hi>r</hi> à <hi>abres</hi>, tout comme une lettre illisible au mot <hi>bienz</hi>.</witDetail>
+                                </app>
+                            </p>
+                        </div>
+    </div>
+</body>
+<back>
+  Diese Testedition ist eine Edition (mit XMl/TEI-Elementen für die Edition, i.e. lem, rdg, rdgGrp etc.) UND mit den Elementen, die aus Deucalion & Pyrrha stammen, also die der Tokenisierung, POS-Annotation und Lemmatisierung.
+</back>
+</text>
+</TEI>
