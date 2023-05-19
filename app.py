@@ -11,18 +11,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'xml'}
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-@app.route("/")
-def home():
-    return "Hello, Flask!"
 
-@app.route("/hello")
-@app.route("/hello/<name>")
-def hello_there(name=None):
-    return render_template(
-        "hello_there.html",
-        name=name,
-        date=datetime.now()
-    )
 
 @app.route("/api/data")
 def get_data():
