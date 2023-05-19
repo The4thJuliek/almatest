@@ -1,4 +1,4 @@
-# AlMA Test
+# ALMA Test
 
 
 Files that are meant to be used for testing various software/tools for ALMA.
