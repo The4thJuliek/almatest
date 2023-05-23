@@ -107,6 +107,6 @@ if __name__ == '__main__':
 # def helloworld():
 #     return 'Hello, world!', 200
 
-@app.route("/home")
-def home():
-	return "<h1>ALMA Text Factory</h1> Hello! This is the Text Factory of ALMA."
+@app.route("/test")
+def test(name=None):
+	return render_template('test.html', name=name)
