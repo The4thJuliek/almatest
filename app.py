@@ -94,7 +94,7 @@
 
 
 import os.path
-from flask import Flask
+from flask import Flask, render_template
 from flask_autoindex import AutoIndex
 
 app = Flask(__name__)
@@ -103,6 +103,10 @@ AutoIndex(app, browse_root=os.path.curdir)
 if __name__ == '__main__':
     app.run()
 
-@app.route('/helloworld')
-def helloworld():
-    return 'Hello, world!', 200
+# @app.route('/helloworld')
+# def helloworld():
+#     return 'Hello, world!', 200
+
+@app.route("/home")
+def home():
+	return "<h1>ALMA Text Factory</h1> Hello! This is the Text Factory of ALMA."
